@@ -20,19 +20,19 @@ Watchman works in **two parts**:
 
 ## ✅ What Can You Use It For?
 
-- Monitoring project folders  
-- Tracking file activity  
-- Reviewing *what changed* and *when*  
-- Learning how file-system monitoring works in practice  
+- Monitoring project folders
+- Tracking file activity
+- Reviewing _what changed_ and _when_
+- Learning how file-system monitoring works in practice
 
 ---
 
 ## ⚙️ How Watchman Works (High Level)
 
-1. You run the **watcher** and choose a directory to monitor  
-2. File changes (create, modify, delete, rename) are saved to a log file  
-3. You run **`watchman.exe`** to view those changes  
-4. Events are displayed with timestamps and optional colored output  
+1. You run the **watcher** and choose a directory to monitor
+2. File changes (create, modify, delete, rename) are saved to a log file
+3. You run **`watchman.exe`** to view those changes
+4. Events are displayed with timestamps and optional colored output
 
 ---
 
@@ -65,7 +65,8 @@ If you move it, configuration loading and log reading **will break**.
 ## 🛠 Installation & Setup
 
 ### Prerequisites
-- Windows 10 / Windows 11  
+
+- Windows 10 / Windows 11
 - g++ compiler (MinGW or MSYS2 recommended)
 
 ---
@@ -79,6 +80,7 @@ g++ watchman/src/main.cpp watchman/src/config.cpp watchman/src/console.cpp -Iwat
 ```
 
 ### Optional build script (`build_watchman.bat`)
+
 ```
 @echo off
 g++ watchman/src/main.cpp watchman/src/config.cpp watchman/src/console.cpp -Iwatchman/include -o watchman.exe
@@ -94,11 +96,14 @@ watchman.exe
 ```
 
 ### Example Output
+
 ```
 [2026-01-25 18:12:40] [CREATED]  notes.txt
 [2026-01-25 18:13:01] [MODIFIED] notes.txt
 [2026-01-25 18:13:45] [DELETED]  notes.txt
 ```
+
+![](watchman working.mp4)
 
 ---
 
