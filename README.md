@@ -103,7 +103,9 @@ watchman.exe
 [2026-01-25 18:13:45] [DELETED]  notes.txt
 ```
 
-![](watchman working.mp4)
+<video width="320" height="240" controls>
+  <source src="watchman working.mp4" type="video/mp4">
+</video>
 
 ---
 
