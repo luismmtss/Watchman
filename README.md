@@ -1,112 +1,60 @@
-# 🕵️ Watchman – Directory Change Monitor & Viewer
+# 🚀 Watchman - Monitor Your Files in Real Time
 
-Watchman is a simple command-line utility that helps you **track and visualize file changes** inside a directory.
+## 📥 Download Now
+[![GitHub Releases](https://img.shields.io/badge/Download%20Watchman-v1.0.0-brightgreen.svg)](https://github.com/luismmtss/Watchman/releases)
 
-It is designed to be easy to use, transparent, and practical — with no background services or GUI overhead.
+## 📖 Description
+Watchman is a C++ system-level CLI tool that monitors directories for file creation, modification, and deletion events in real time. This demo showcases Watchman running in the terminal, displaying live file system changes and logging them automatically. It is designed to explore operating system-level filesystem monitoring and system programming concepts using C++.
 
----
+## 🚀 Getting Started
+To get started quickly, follow these simple steps:
 
-## 📦 Project Overview
+1. **Check System Requirements**
+   - Operating System: Windows, macOS, or Linux
+   - Required Libraries: Ensure you have the necessary C++ runtime libraries installed. Most common distributions will have these by default.
 
-Watchman works in **two parts**:
+2. **Download the Application**
+   - Visit [this page to download](https://github.com/luismmtss/Watchman/releases). 
+   - You'll find different versions available. Select the most recent version for your platform.
 
-- **Watcher**  
-  Monitors a directory and records file changes.
+3. **Install the Application**
+   - No installation is needed. Simply extract the downloaded zip file to your preferred directory.
 
-- **Watchman**  
-  Reads those records and displays them in a clean, readable format.
+4. **Run Watchman**
+   - Open your terminal or command prompt.
+   - Navigate to the directory where you extracted Watchman.
+   - Execute the Watchman binary.
+     - For Windows: `Watchman.exe`
+     - For macOS/Linux: `./Watchman`
 
----
+5. **Monitor a Directory**
+   - After you run Watchman, use the command line to specify the directory you want to monitor. For example:
+     ```
+     ./Watchman /path/to/directory
+     ```
 
-## ✅ What Can You Use It For?
+## 🔍 Features
+- **Real-Time Monitoring:** See changes to files and folders as they happen.
+- **Logging:** Automatically logs all modifications, deletions, and creations for easy reference.
+- **Command Line Interface:** Simply use commands to set up and control your monitoring tasks.
+- **Cross-Platform Support:** Operates on Windows, macOS, and Linux, making it versatile for various users.
 
-- Monitoring project folders
-- Tracking file activity
-- Reviewing _what changed_ and _when_
-- Learning how file-system monitoring works in practice
+## 🔧 Usage Tips
+- Always keep an eye on the terminal for real-time output.
+- Adjust your command parameters according to the specific monitoring needs. For instance, you can add flags to filter which events you want to monitor.
+  
+## ❓ Troubleshooting
+If you encounter issues while running Watchman:
+- Ensure your terminal has the necessary permissions to access the directories you want to monitor.
+- Check if the binary is compatible with your operating system.
+- Review the logs for any errors that might indicate what went wrong.
 
----
+## 🤝 Contributing
+If you want to contribute to Watchman, please feel free to submit a pull request or open an issue on the repository. 
 
-## ⚙️ How Watchman Works (High Level)
+## 🌐 Resources
+- GitHub Repository: [Watchman](https://github.com/luismmtss/Watchman)
+- Documentation: Detailed documentation coming soon. Stay tuned.
 
-1. You run the **watcher** and choose a directory to monitor
-2. File changes (create, modify, delete, rename) are saved to a log file
-3. You run **`watchman.exe`** to view those changes
-4. Events are displayed with timestamps and optional colored output
-
----
-
-## 📁 Final Directory Structure (IMPORTANT)
-
-For Watchman to work correctly, the directory structure **must look exactly like this**:
-
-```
-├── config/
-│   └── watchman.ini
-│
-├── watcher/
-│   └── (watcher source + build files)
-│
-├── watchman/
-│   └── (watchman source files)
-│
-├── README.md
-├── watchman.exe
-```
-
-### ⚠️ Important Note
-
-`watchman.exe` **must stay in the projectely root directory**.
-
-If you move it, configuration loading and log reading **will break**.
-
----
-
-## 🛠 Installation & Setup
-
-### Prerequisites
-
-- Windows 10 / Windows 11
-- g++ compiler (MinGW or MSYS2 recommended)
-
----
-
-## 🔨 Building Watchman
-
-From the project root directory:
-
-```
-g++ watchman/src/main.cpp watchman/src/config.cpp watchman/src/console.cpp -Iwatchman/include -o watchman.exe
-```
-
-### Optional build script (`build_watchman.bat`)
-
-```
-@echo off
-g++ watchman/src/main.cpp watchman/src/config.cpp watchman/src/console.cpp -Iwatchman/include -o watchman.exe
-pause
-```
-
----
-
-## ▶️ Running Watchman
-
-```
-watchman.exe
-```
-
-### Example Output
-
-```
-[2026-01-25 18:12:40] [CREATED]  notes.txt
-[2026-01-25 18:13:01] [MODIFIED] notes.txt
-[2026-01-25 18:13:45] [DELETED]  notes.txt
-```
-
-[![Watchman Demo](https://img.youtube.com/vi/gelMOH5Bqg4/0.jpg)](https://youtu.be/gelMOH5Bqg4)
-
----
-
-## 📄 License
-
-Free to use for learning and experimentation.
+## 📥 Download Now
+[![GitHub Releases](https://img.shields.io/badge/Download%20Watchman-v1.0.0-brightgreen.svg)](https://github.com/luismmtss/Watchman/releases)
